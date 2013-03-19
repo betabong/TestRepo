@@ -17,8 +17,7 @@ requirejs.config({
 	shim: {
 		'jquery': { exports: 'jQuery' },
 		'underscore': { exports: '_' },
-		'backbone': { exports: 'Backbone', deps: ['underscore','jquery'] },
-		'app/plugins': { deps: ['jquery'] }
+		'backbone': { exports: 'Backbone', deps: ['underscore','jquery'] }
 	}
 });
 
