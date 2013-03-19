@@ -8,7 +8,8 @@
 
 	<target name="compile">
 		<!-- Create a build directory if not there -->
-		<mkdir dir="${build}"/>
+		<mkdir dir="${build}/"/>
+
 		
 		<!-- Copy JS to js-temp and remove all SVN stuff -->
 		<copy todir="js-temp">
